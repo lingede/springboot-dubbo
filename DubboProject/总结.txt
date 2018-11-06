@@ -1,0 +1,11 @@
+访问controller出现404的原因
+1.componentScan的原因
+2.注意加没加responsebody
+
+
+启动怎么发现是dubbo的
+1.通过pom文件，引入dubbo相关，启动的时候就是dubbo
+
+
+访问congtroller，出现拒绝访问
+1.观察控制台输出，是否端口是8080
