@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableDubbo //   开启基于注解的dubbo模型
+//@EnableDubbo //   开启基于注解的dubbo模型
 @EnableAutoConfiguration
 @ComponentScan(basePackages = {"service"})
 @DubboComponentScan(basePackages = {"service"})
